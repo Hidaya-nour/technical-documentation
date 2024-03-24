@@ -45,3 +45,29 @@ section div{
 ul li a{
     text-decoration: none;
 }
+@media (min-width:768px) {
+    
+    .nav-links{
+        position: fixed;
+        top: 80px;
+        width:280px;
+        height: 87vh;
+        overflow: auto;    
+    }
+    #nav-bar{
+        border: 1px solid black;
+        height: 100vh;
+        position: fixed;
+        width: 280px;
+    }
+    main{
+        margin-left: 310px;
+        margin-right: 30px;    
+    }
+    body{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+}
